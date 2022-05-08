@@ -1,6 +1,6 @@
 {
 	"name": "@ekrata/svelte-common",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "description",
 	"author": {
 		"name": "Ekrata",
@@ -16,7 +16,7 @@
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
 		"prepare": "svelte-kit sync",
-		"release": "standard-version && git push --follow-tags && npm publish",
+		"release": "standard-version && git push --follow-tags && npm publish ./package",
 		"test": "playwright test",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
