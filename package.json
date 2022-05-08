@@ -16,7 +16,7 @@
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
 		"prepare": "svelte-kit sync",
-		"release": "svelte-kit package && standard-version && git push --follow-tags && npm publish ./package",
+		"release": "svelte-kit package && standard-version && git push --follow-tags && yarn publish ./package",
 		"test": "playwright test",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
