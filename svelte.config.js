@@ -1,5 +1,7 @@
 import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
+import { NodeGlobalsPolyfillPlugin } from '@esbuild-plugins/node-globals-polyfill';
+import { NodeModulesPolyfillPlugin } from '@esbuild-plugins/node-modules-polyfill';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -8,7 +10,43 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		vite: {
+			ssr: {
+				noExternal: [
+					'@fortawesome/*',
+					'@fortawesome/free-brands-svg-icons',
+					'@fortawesome/free-regular-svg-icons',
+					'@fortawesome/free-solid-svg-icons'
+				]
+			},
+
+			optimizeDeps: {
+				esbuildOptions: {
+					define: {
+						global: 'globalThis'
+					},
+					plugins: [
+						NodeGlobalsPolyfillPlugin({
+							process: true,
+							buffer: true
+						}),
+						NodeModulesPolyfillPlugin()
+					]
+				}
+			},
+			resolve: {
+				alias: {
+					stream: 'stream-browserify',
+					https: 'agent-base'
+				}
+			},
+
+			plugins: [],
+			define: {
+				global: 'globalThis'
+			}
+		}
 	}
 };
 

@@ -3,9 +3,6 @@
 	export let alternate = false;
 	export let hollow = false;
 	export let type: 'button' | 'reset' | 'submit' = 'button';
-	const setToggle = (to: boolean) => {
-		toggle = to;
-	};
 </script>
 
 <div>

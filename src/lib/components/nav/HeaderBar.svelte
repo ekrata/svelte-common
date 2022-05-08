@@ -1,7 +1,7 @@
 <script lang="ts">
 	// import EkrataLogo from '$lib/icons/ekrata-logo.svg?component';
 	import Logo from '$lib/icons/logo.png';
-	import Button from './Button.svelte';
+	import Button from '$lib/components/nav/Button.svelte';
 	let showMobileMenu: boolean;
 	const handleMenuClick = () => {
 		showMobileMenu = !showMobileMenu;
