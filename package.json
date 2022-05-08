@@ -24,6 +24,8 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
+		"@esbuild-plugins/node-globals-polyfill": "^0.1.1",
+		"@esbuild-plugins/node-modules-polyfill": "^0.1.4",
 		"@fortawesome/free-solid-svg-icons": "^6.1.1",
 		"@playwright/test": "^1.21.0",
 		"@sveltejs/adapter-auto": "next",
