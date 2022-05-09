@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.12.1](https://github.com/ekrata/svelte-common/compare/v0.12.0...v0.12.1) (2022-05-09)
+
 ### [0.11.1](https://github.com/ekrata/svelte-common/compare/v0.11.0...v0.11.1) (2022-05-09)
 
 ### [0.10.1](https://github.com/ekrata/svelte-common/compare/v0.10.0...v0.10.1) (2022-05-09)
