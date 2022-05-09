@@ -2,6 +2,7 @@
 	"name": "@ekrata/svelte-common",
 	"version": "0.6.1",
 	"description": "description",
+  "svelte": "index.js",
 	"author": {
 		"name": "Ekrata",
 		"email": "luke@ekrata.com"
