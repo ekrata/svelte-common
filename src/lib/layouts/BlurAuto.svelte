@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '../../app.css';
+	import '../app.css';
 	// import { locale, loadTranslations } from '$lib/translations/translations';
 	import { blur } from 'svelte/transition';
 	import HeaderBar from '$lib/components/nav/HeaderBar.svelte';
