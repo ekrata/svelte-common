@@ -19,7 +19,7 @@
 	// };
 </script>
 
-<HeaderBar />
+<slot name="header" />
 <div class="overflow-x-hidden font-sans">
 	<div class="container mx-auto max-w-6xl px-5">
 		{#key url}
