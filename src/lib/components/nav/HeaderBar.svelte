@@ -92,58 +92,38 @@
 			<ul
 				class="align-center flex flex-col items-center capitalize text-zinc-200 no-underline lg:mt-0 lg:flex-row lg:space-x-8 lg:text-base"
 			>
-				<li>
-					<a
-						href="/esports/pricing"
-						class="align-center relative block self-center pr-4 pl-3 text-center text-inherit no-underline after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:duration-200 after:ease-in-out hover:no-underline hover:after:origin-bottom-left hover:after:scale-x-100 dark:text-white md:p-0"
-						aria-current="page"
-					>
-						pricing
-					</a>
-				</li>
-				<li>
-					<a
-						href="/esports/docs"
-						class="relative block rounded py-2 pr-4 pl-3 text-center text-inherit no-underline after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:duration-200 after:ease-in-out hover:no-underline hover:after:origin-bottom-left hover:after:scale-x-100 dark:text-white md:p-0"
-						aria-current="page"
-					>
-						docs
-					</a>
-				</li>
-				<li>
-					<a
-						href="blog.ekrata.com"
-						class="relative block rounded py-2 pr-4 pl-3 text-center text-inherit no-underline after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:duration-200 after:ease-in-out hover:no-underline hover:after:origin-bottom-left hover:after:scale-x-100 dark:text-white md:p-0"
-						aria-current="page"
-					>
-						blog
-					</a>
-				</li>
-				<li>
-					<a
-						href="/contact"
-						class="relative block rounded py-2 pr-4 pl-3 text-center text-inherit no-underline after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:duration-200 after:ease-in-out hover:no-underline hover:after:origin-bottom-left hover:after:scale-x-100 dark:text-white md:p-0"
-						aria-current="page"
-					>
-						contact
-					</a>
-				</li>
-				<li>
-					<a href="/login">
-						<Button hollow>
-							<div slot="text" class="py-0 uppercase text-inherit text-zinc-200">Log in</div>
-						</Button>
-					</a>
-				</li>
-				<li>
-					<a href="/signup">
-						<Button toggle>
-							<div slot="text" class="py-0 uppercase text-inherit text-zinc-200">
-								Get free esports data
-							</div>
-						</Button>
-					</a>
-				</li>
+				<slot name="menuItems">
+					<li>
+						<a href="/esports/pricing" class="animate-underline-2" aria-current="page">pricing</a>
+					</li>
+					<li>
+						<a href="/esports/docs" class="animate-underline-2" aria-current="page">docs</a>
+					</li>
+					<li>
+						<a href="blog.ekrata.com" class="animate-underline-2" aria-current="page">blog</a>
+					</li>
+					<li>
+						<a href="/contact" class="animate-underline-2" aria-current="page"> contact </a>
+					</li>
+				</slot>
+				<slot name="auth">
+					<li>
+						<a href="/login">
+							<Button hollow>
+								<div slot="text" class="py-0 uppercase text-inherit text-zinc-200">Log in</div>
+							</Button>
+						</a>
+					</li>
+					<li>
+						<a href="/signup">
+							<Button toggle>
+								<div slot="text" class="py-0 uppercase text-inherit text-zinc-200">
+									Get free esports data
+								</div>
+							</Button>
+						</a>
+					</li>
+				</slot>
 				<!-- <li>
           <div
             class="group relative block space-x-1 rounded py-2 pr-4 pl-3 text-center text-inherit no-underline  dark:text-white md:p-0"
