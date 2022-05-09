@@ -1,8 +1,8 @@
 <script lang="ts">
-	import '../app.css';
+	import '../../app.css';
 	// import { locale, loadTranslations } from '$lib/translations/translations';
 	import { blur } from 'svelte/transition';
-	import HeaderBar from '../components/nav/HeaderBar.svelte';
+	import HeaderBar from '$lib/components/nav/HeaderBar.svelte';
 	export let url = '';
 	// export const load = async ({ url}) => ({ props: { url } });
 
