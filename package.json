@@ -2,7 +2,7 @@
 	"name": "@ekrata/svelte-common",
 	"version": "0.7.1",
 	"description": "description",
-  "svelte": "index.js",
+	"svelte": "index.js",
 	"author": {
 		"name": "Ekrata",
 		"email": "luke@ekrata.com"
@@ -17,7 +17,7 @@
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
 		"prepare": "svelte-kit sync",
-		"release": "svelte-kit package && standard-version && git push --follow-tags && yarn publish ./package",
+		"release": "svelte-kit package && standard-version && git push --follow-tags && npm publish ./package",
 		"test": "playwright test",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
