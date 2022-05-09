@@ -1,6 +1,6 @@
 {
 	"name": "@ekrata/svelte-common",
-	"version": "0.13.1",
+	"version": "0.14.0",
 	"description": "description",
 	"svelte": "index.js",
 	"author": {
