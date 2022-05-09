@@ -90,7 +90,7 @@
 			} w-full items-end place-items-center text-center justify-between font-sans lg:order-1 lg:flex lg:w-auto`}
 		>
 			<ul
-				class="align-center flex flex-col items-center capitalize text-zinc-200 no-underline lg:mt-0 lg:flex-row lg:space-x-8 lg:text-base"
+				class="align-center flex flex-col gap-y-2 items-center capitalize text-zinc-200 no-underline lg:mt-0 lg:flex-row lg:space-x-8 lg:text-base"
 			>
 				<slot name="menuItems">
 					<li>
