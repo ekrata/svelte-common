@@ -11,7 +11,6 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
-		target: ['es2020'],
 		vite: {
 			ssr: {
 				noExternal: [
