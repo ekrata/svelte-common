@@ -1,8 +1,8 @@
 {
 	"name": "@ekrata/svelte-common",
-	"version": "0.7.1",
+	"version": "0.8.0",
 	"description": "description",
-  "svelte": "index.js",
+	"svelte": "index.js",
 	"author": {
 		"name": "Ekrata",
 		"email": "luke@ekrata.com"
