@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
+import mm from 'micromatch';
 import { NodeGlobalsPolyfillPlugin } from '@esbuild-plugins/node-globals-polyfill';
 import { NodeModulesPolyfillPlugin } from '@esbuild-plugins/node-modules-polyfill';
 
@@ -12,6 +13,9 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		vite: {
+			package: {
+				files: mm.matcher('*')
+			},
 			ssr: {
 				noExternal: [
 					'@fortawesome/*',
