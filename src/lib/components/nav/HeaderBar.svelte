@@ -230,6 +230,15 @@
 		}
 	}
 
+	/* @keyframes slide {
+		0% {
+			transform: translateX(-25%);
+		}
+		100% {
+			transform: translateX(25%);
+		}
+	}
+
 	.bg {
 		animation: slide 5s ease-in-out infinite alternate;
 		background-image: linear-gradient(-2.5deg, rgb(95, 8, 65) 55%, hsl(257, 75%, 19%) 30%);
@@ -262,14 +271,5 @@
 		text-align: center;
 		top: 50%;
 		transform: translate(-50%, -50%);
-	}
-
-	@keyframes slide {
-		0% {
-			transform: translateX(-25%);
-		}
-		100% {
-			transform: translateX(25%);
-		}
-	}
+	} */
 </style>
