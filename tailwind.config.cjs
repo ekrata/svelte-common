@@ -4,6 +4,5 @@ module.exports = {
 		extend: {}
 	},
 	mode: 'jit',
-	purge: ['./src/**/*.svelte'],
 	plugins: []
 };
