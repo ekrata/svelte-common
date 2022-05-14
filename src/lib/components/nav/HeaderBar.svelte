@@ -18,7 +18,7 @@
 <div class="bg bg2" />
 <div class="bg bg3" /> -->
 <div
-	class={'flex sticky text-xl top-0 py-3 z-50 mb-20 bg-gray-900/80 backdrop-blur-lg  align-middle justify-between blur-[0.1px] tracking-widest shadow-2xl border-b border-gray-900/75 '}
+	class={'flex sticky text-xl top-0 py-3 z-50 mb-20 bg-gray-900 backdrop-blur-lg  align-middle justify-between blur-[0.1px] tracking-widest shadow-2xl border-b border-gray-900/75 '}
 >
 	<nav
 		id="nav-scroll"
