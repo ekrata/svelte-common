@@ -2,6 +2,10 @@
 	// import EkrataLogo from '$lib/icons/ekrata-logo.svg?component';
 	import Logo from '$lib/icons/logo.png';
 	import Button from '$lib/components/nav/Button.svelte';
+	import { writable } from 'svelte/store';
+	import Modal, { bind } from 'svelte-simple-modal';
+	const modal = writable(null);
+	const showLoginModal = () => modal.set(bind(LoginModal, { message: "It's a modal!" }));
 	let showMobileMenu: boolean;
 	const handleMenuClick = () => {
 		showMobileMenu = !showMobileMenu;
@@ -108,11 +112,11 @@
 				</slot>
 				<slot name="auth">
 					<li>
-						<a href="/login">
+						<Modal>
 							<Button hollow>
 								<div slot="text" class="py-0 uppercase text-inherit text-zinc-200">Log in</div>
 							</Button>
-						</a>
+						</Modal>
 					</li>
 					<li>
 						<a href="/signup">

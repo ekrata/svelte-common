@@ -3,12 +3,12 @@
 	import Logo from '$lib/icons/logo.png';
 </script>
 
-<footer class="p-4 bg-gray-900 sm:p-6 dark:bg-gray-900 ">
+<footer class="p-4 bg-gray-900 sm:p-6 dark:bg-gray-900">
 	<div class="container mx-auto">
 		<div
-			class="flex flex-wrap justify-around text-center flex-center gap-x-8 lg:gap-x-24 text-sm lg:text-md gap-y-14"
+			class="flex flex-wrap justify-evenly text-center flex-center gap-x-8 lg:gap-x-24 text-sm lg:text-md gap-y-14"
 		>
-			<div class="flex flex-col w-[350px] gap-y-8 justify-items-center subpixel-antialiased">
+			<div class="flex flex-col w-[250px] justify-items-center subpixel-antialiased gap-y-4">
 				<a href="/index" class="no-underline hover:no-underline">
 					<img
 						src={Logo}
@@ -22,11 +22,13 @@
           -ms-interpolation-mode: nearest-neighbor`}
 					/>
 					<div
-						class=" inline font-sans font-bold text-zinc-200 lg:text-2xl no-underline animate-underline-2"
+						class=" inline font-sans align-bottom font-bold text-zinc-200 lg:text-2xl no-underline animate-underline-2"
 					>
 						ekrata
 					</div>
 				</a>
+				Subscribe to receive updates about our esports data plans, including new games, helpful guides,
+				and new ekrata products
 				<MailSubscribe />
 			</div>
 			<div>
