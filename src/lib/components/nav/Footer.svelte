@@ -60,27 +60,16 @@
 					</h2>
 					<ul class="text-gray-600 dark:text-gray-400 text-justify space-y-4">
 						<li>
-							<a
-								href="https://docs.ekrata.com/esports-data/getting-started"
-								class="animate-underline-2   "
-								>Getting Started
-							</a>
+							<a class="animate-underline-2   ">Getting Started </a>
 						</li>
 						<li>
-							<a
-								href="https://ekrata.com/esports-data/frequently-asked-questions"
-								class="animate-underline-2 ">API Documentation</a
-							>
+							<a class="animate-underline-2 ">API Documentation</a>
 						</li>
 						<li>
-							<a href="https://ekrata.com/esports-data/pricing" class="animate-underline-2 "
-								>Understanding Our API</a
-							>
+							<a class="animate-underline-2 ">Understanding Our API</a>
 						</li>
 						<li>
-							<a href="https://ekrata.com/esports-data/compare" class="animate-underline-2 "
-								>Recipes & Guides</a
-							>
+							<a class="animate-underline-2 ">Recipes & Guides</a>
 						</li>
 					</ul>
 				</div>
@@ -90,13 +79,13 @@
 					</h2>
 					<ul class="text-gray-600 dark:text-gray-400 text-justify space-y-4">
 						<li>
-							<a href="https://ekrata.com/success" class="animate-underline-2 ">Testimonies</a>
+							<a class="animate-underline-2 ">Testimonies</a>
 						</li>
 						<li>
-							<a href="https://ekrata.com/about" class="animate-underline-2 ">Feedback</a>
+							<a class="animate-underline-2 ">Feedback</a>
 						</li>
 						<li>
-							<a href="https://ekrata.com/signup" class="animate-underline-2 ">Get in touch</a>
+							<a class="animate-underline-2 ">Get in touch</a>
 						</li>
 					</ul>
 				</div>
@@ -106,16 +95,16 @@
 					</h2>
 					<ul class="text-gray-600 dark:text-gray-400 text-justify space-y-4">
 						<li>
-							<a href="https://ekrata.com" class="animate-underline-2 ">Home</a>
+							<a class="animate-underline-2 ">Home</a>
 						</li>
 						<li>
-							<a href="https://ekrata.com/about" class="animate-underline-2 ">About</a>
+							<a class="animate-underline-2 ">About</a>
 						</li>
 						<li>
-							<a href="https://ekrata.com/signup" class="animate-underline-2 ">Sign up</a>
+							<a class="animate-underline-2 ">Sign up</a>
 						</li>
 						<li>
-							<a href="https://ekrata.com/login" class="animate-underline-2 ">Log in</a>
+							<a class="animate-underline-2 ">Log in</a>
 						</li>
 					</ul>
 				</div>
@@ -123,13 +112,13 @@
 					<h2 class="mb-6 text-md  font-semibold text-zinc-200 uppercase dark:text-white">Blog</h2>
 					<ul class="text-gray-600 dark:text-gray-400 text-justify space-y-4">
 						<li>
-							<a href="https://blog.ekrata.com/tech" class="animate-underline-2 ">Tech</a>
+							<a class="animate-underline-2 ">Tech</a>
 						</li>
 						<li>
-							<a href="https://blog.ekrata.com/igaming" class="animate-underline-2 ">IGaming</a>
+							<a class="animate-underline-2 ">IGaming</a>
 						</li>
 						<li>
-							<a href="https://blog.ekrata.com/company" class="animate-underline-2 ">Company</a>
+							<a class="animate-underline-2 ">Company</a>
 						</li>
 					</ul>
 				</div>
@@ -137,14 +126,10 @@
 					<h2 class="mb-6 text-md  font-semibold text-zinc-200 uppercase dark:text-white">Legal</h2>
 					<ul class="text-gray-600 dark:text-gray-400 text-justify space-y-4">
 						<li>
-							<a href="https://ekrata.com/legal/privacy-policy" class="animate-underline-2 "
-								>Privacy Policy</a
-							>
+							<a class="animate-underline-2 ">Privacy Policy</a>
 						</li>
 						<li>
-							<a href="https://ekrata.com/legal/terms-of-service" class="animate-underline-2 "
-								>Terms of Service</a
-							>
+							<a class="animate-underline-2 ">Terms of Service</a>
 						</li>
 					</ul>
 				</div>
@@ -153,8 +138,7 @@
 		<hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 		<div class="sm:flex sm:items-center sm:justify-between">
 			<span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-				>© 2022 <a href="https://ekrata.com" class="hover:underline">ekrata™</a>. All Rights
-				Reserved.
+				>© 2022 <a class="hover:underline">ekrata™</a>. All Rights Reserved.
 			</span>
 			<div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
 				<a href="facebook.com" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
