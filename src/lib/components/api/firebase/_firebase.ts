@@ -2,6 +2,7 @@ import { getAuth } from 'firebase/auth';
 import * as firebaseui from 'firebaseui';
 import { initializeApp } from 'firebase/app';
 import 'firebaseui/dist/firebaseui.css';
+import { getFirestore } from 'firebase/firestore';
 const firebaseConfig = {
 	apiKey: import.meta.env.VITE_FIREBASE_KEY as string,
 	authDomain: 'PROJECT_ID.firebaseapp.com',

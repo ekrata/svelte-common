@@ -1,11 +1,11 @@
 <script lang="ts">
+	import { db } from '$lib/components/api/firebase/_firebase';
 	import TextField from '$lib/components/form/TextField.svelte';
 	import { Button } from '$lib/components/nav';
 	import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 	import { doc, setDoc } from 'firebase/firestore';
 	import Fa from 'svelte-fa';
-	import db from '../api/firebase/db';
-	import { values, schema } from './schema';
+	import { schema } from './MailSubscribe';
 	const errors = {
 		email: ''
 	};
@@ -13,14 +13,10 @@
 		const validatedValues = await schema.validate(values, { abortEarly: false });
 		await setDoc(doc(db, 'EmailList', ''), { email: validatedValues.email });
 	};
+	export let values = { email: '' };
 </script>
 
-<form
-	method="POST"
-	class="text-normal flex flex-col"
-	on:submit|preventDefault={handleSubmit}
-	in:blur={{ duration: 500, delay: 0, amount: 100 }}
->
+<form method="POST" class="text-normal flex flex-col" on:submit|preventDefault={handleSubmit}>
 	<TextField bind:field={values.email} bind:error={errors.email} type="email" label="Email">
 		<Fa slot="icon" icon={faEnvelope} primaryColor="gray" secondaryColor="white" />
 	</TextField>

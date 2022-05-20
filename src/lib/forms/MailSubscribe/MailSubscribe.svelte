@@ -33,16 +33,11 @@
 	}
 </script>
 
-<form method="POST" class="text-normal flex flex-col" on:submit|preventDefault={handleSubmit}>
-	<TextField
-		bind:field={values.email}
-		bind:error={errors.email}
-		type="email"
-		label="Subscribe to receive updates about our esports data plans, including new games, helpful guides, and new ekrata products"
-	>
+<form method="POST" class=" flex flex-col" on:submit|preventDefault={handleSubmit}>
+	<TextField bind:field={values.email} bind:error={errors.email} type="email">
 		<Fa slot="icon" icon={faEnvelope} primaryColor="gray" secondaryColor="white" />
 	</TextField>
-	<div class="lg:mx-auto lg:w-1/2 mt-10">
+	<div class="lg:mx-auto lg:w-1/2">
 		<Button toggle alternate type="submit">
 			<div slot="text" class="zinc-200 align-center text-normal flex gap-x-4 py-1">
 				<Fa
