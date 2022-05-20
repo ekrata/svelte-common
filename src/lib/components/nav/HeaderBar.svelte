@@ -101,13 +101,13 @@
 						<a href="/esports/pricing" class="animate-underline-2" aria-current="page">pricing</a>
 					</li>
 					<li>
-						<a href="/esports/docs" class="animate-underline-2" aria-current="page">docs</a>
+						<a href="/" class="animate-underline-2" aria-current="page">docs</a>
 					</li>
 					<li>
-						<a href="blog.ekrata.com" class="animate-underline-2" aria-current="page">blog</a>
+						<a href="/" class="animate-underline-2" aria-current="page">blog</a>
 					</li>
 					<li>
-						<a href="/contact" class="animate-underline-2" aria-current="page"> contact </a>
+						<a href="/" class="animate-underline-2" aria-current="page"> contact </a>
 					</li>
 				</slot>
 				<slot name="auth">
