@@ -9,7 +9,7 @@
 			class="flex flex-wrap justify-around text-center flex-center gap-x-8 lg:gap-x-24 text-sm lg:text-md gap-y-14"
 		>
 			<div class="flex flex-col w-[350px] gap-y-8 justify-items-center subpixel-antialiased">
-				<a href="/index" class="no-underline hover:no-underline">
+				<a href="/" class="no-underline hover:no-underline">
 					<img
 						src={Logo}
 						class="mx-auto inline"
@@ -36,15 +36,13 @@
 						<a href="/" class="animate-underline-2 capitalize ">How we help grow your business</a>
 					</li>
 					<li>
-						<a href="https://ekrata.com/pricing" class="animate-underline-2 ">Pricing & Plans</a>
+						<a class="animate-underline-2 ">Pricing & Plans</a>
 					</li>
 					<li>
-						<a href="https://ekrata.com/pricing" class="animate-underline-2 "
-							>Frequently Asked Questions</a
-						>
+						<a class="animate-underline-2 ">Frequently Asked Questions</a>
 					</li>
 					<li>
-						<a href="https://ekrata.com/pricing" class="animate-underline-2 ">Compare Our Value</a>
+						<a class="animate-underline-2 ">Compare Our Value</a>
 					</li>
 				</ul>
 			</div>
@@ -54,27 +52,16 @@
 				</h2>
 				<ul class="text-gray-600 dark:text-gray-400 text-justify space-y-4">
 					<li>
-						<a
-							href="https://docs.ekrata.com/esports-data/getting-started"
-							class="animate-underline-2   "
-							>Getting Started
-						</a>
+						<a class="animate-underline-2   ">Getting Started </a>
 					</li>
 					<li>
-						<a
-							href="https://ekrata.com/esports-data/frequently-asked-questions"
-							class="animate-underline-2 ">API Documentation</a
-						>
+						<a class="animate-underline-2 ">API Documentation</a>
 					</li>
 					<li>
-						<a href="https://ekrata.com/esports-data/pricing" class="animate-underline-2 "
-							>Understanding Our API</a
-						>
+						<a class="animate-underline-2 ">Understanding Our API</a>
 					</li>
 					<li>
-						<a href="https://ekrata.com/esports-data/compare" class="animate-underline-2 "
-							>Recipes & Guides</a
-						>
+						<a class="animate-underline-2 ">Recipes & Guides</a>
 					</li>
 				</ul>
 			</div>
@@ -82,13 +69,13 @@
 				<h2 class="mb-6 text-md  font-semibold text-zinc-200 uppercase dark:text-white">Success</h2>
 				<ul class="text-gray-600 dark:text-gray-400 text-justify space-y-4">
 					<li>
-						<a href="https://ekrata.com/success" class="animate-underline-2 ">Testimonies</a>
+						<a class="animate-underline-2 ">Testimonies</a>
 					</li>
 					<li>
-						<a href="https://ekrata.com/about" class="animate-underline-2 ">Feedback</a>
+						<a class="animate-underline-2 ">Feedback</a>
 					</li>
 					<li>
-						<a href="https://ekrata.com/signup" class="animate-underline-2 ">Get in touch</a>
+						<a class="animate-underline-2 ">Get in touch</a>
 					</li>
 				</ul>
 			</div>
@@ -96,16 +83,16 @@
 				<h2 class="mb-6 text-md  font-semibold text-zinc-200 uppercase dark:text-white">Explore</h2>
 				<ul class="text-gray-600 dark:text-gray-400 text-justify space-y-4">
 					<li>
-						<a href="https://ekrata.com" class="animate-underline-2 ">Home</a>
+						<a class="animate-underline-2 ">Home</a>
 					</li>
 					<li>
-						<a href="https://ekrata.com/about" class="animate-underline-2 ">About</a>
+						<a class="animate-underline-2 ">About</a>
 					</li>
 					<li>
-						<a href="https://ekrata.com/signup" class="animate-underline-2 ">Sign up</a>
+						<a class="animate-underline-2 ">Sign up</a>
 					</li>
 					<li>
-						<a href="https://ekrata.com/login" class="animate-underline-2 ">Log in</a>
+						<a class="animate-underline-2 ">Log in</a>
 					</li>
 				</ul>
 			</div>
@@ -113,13 +100,13 @@
 				<h2 class="mb-6 text-md  font-semibold text-zinc-200 uppercase dark:text-white">Blog</h2>
 				<ul class="text-gray-600 dark:text-gray-400 text-justify space-y-4">
 					<li>
-						<a href="https://blog.ekrata.com/tech" class="animate-underline-2 ">Tech</a>
+						<a class="animate-underline-2 ">Tech</a>
 					</li>
 					<li>
-						<a href="https://blog.ekrata.com/igaming" class="animate-underline-2 ">IGaming</a>
+						<a class="animate-underline-2 ">IGaming</a>
 					</li>
 					<li>
-						<a href="https://blog.ekrata.com/company" class="animate-underline-2 ">Company</a>
+						<a class="animate-underline-2 ">Company</a>
 					</li>
 				</ul>
 			</div>
@@ -127,14 +114,10 @@
 				<h2 class="mb-6 text-md  font-semibold text-zinc-200 uppercase dark:text-white">Legal</h2>
 				<ul class="text-gray-600 dark:text-gray-400 text-justify space-y-4">
 					<li>
-						<a href="https://ekrata.com/legal/privacy-policy" class="animate-underline-2 "
-							>Privacy Policy</a
-						>
+						<a class="animate-underline-2 ">Privacy Policy</a>
 					</li>
 					<li>
-						<a href="https://ekrata.com/legal/terms-of-service" class="animate-underline-2 "
-							>Terms of Service</a
-						>
+						<a class="animate-underline-2 ">Terms of Service</a>
 					</li>
 				</ul>
 			</div>
@@ -146,7 +129,7 @@
 			>© 2022 <a href="https://ekrata.com" class="hover:underline">ekrata™</a>. All Rights Reserved.
 		</span>
 		<div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-			<a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+			<a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
 				<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"
 					><path
 						fill-rule="evenodd"
@@ -155,7 +138,7 @@
 					/></svg
 				>
 			</a>
-			<a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+			<a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
 				<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"
 					><path
 						fill-rule="evenodd"
@@ -164,14 +147,14 @@
 					/></svg
 				>
 			</a>
-			<a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+			<a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
 				<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"
 					><path
 						d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
 					/></svg
 				>
 			</a>
-			<a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+			<a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
 				<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"
 					><path
 						fill-rule="evenodd"
