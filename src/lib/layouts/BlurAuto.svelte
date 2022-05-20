@@ -31,5 +31,5 @@
 			</div>
 		{/key}
 	</div>
-	<footer />
 </div>
+<slot name="footer" />
