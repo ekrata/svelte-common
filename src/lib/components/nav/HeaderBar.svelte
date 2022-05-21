@@ -44,7 +44,7 @@
 				href="/"
 				class="relative flex basis-1/2 place-self-center pr-4 pl-5 align-bottom font-sans font-medium tracking-widest no-underline after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:duration-200 after:ease-in-out hover:no-underline hover:after:origin-bottom-left hover:after:scale-x-100 dark:text-white md:p-0 lg:text-lg"
 			>
-				<div class="font-sans font-bold text-zinc-200 lg:text-2xl ">ekrata</div>
+				<div class="font-sans font-bold text-zinc-200 lg:text-2xl ">Your organisation</div>
 			</a>
 		</div>
 		{#key showMobileMenu}
