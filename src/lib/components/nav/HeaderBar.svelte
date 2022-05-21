@@ -22,7 +22,7 @@
 <div class="bg bg2" />
 <div class="bg bg3" /> -->
 <div
-	class={'fixed w-[100%] text-xl top-0 py-3 z-50 bg-gray-900/95 backdrop-blur-lg  align-middle justify-between blur-[0.1px] tracking-widest shadow-2xl border-b border-gray-900/75 '}
+	class={'flex fixed w-[100%] text-xl py-3 z-10 bg-gray-900/95 backdrop-blur-lg  align-middle justify-between blur-[0.1px] tracking-widest shadow-2xl border-b border-gray-900/75 '}
 >
 	<nav
 		id="nav-scroll"
@@ -47,7 +47,7 @@
 				<div class="font-sans font-bold text-zinc-200 lg:text-2xl ">Org</div>
 			</a>
 		</div>
-		{#key showMobileMenu}
+		{#if showMobileMenu}
 			<div
 				class={`${
 					showMobileMenu ? 'animate-jello-horizontal' : 'flex animate-jello-horizontal'
@@ -85,7 +85,7 @@
 					>
 				</button>
 			</div>
-		{/key}
+		{/if}
 		<div
 			id="mobile-menu-4"
 			on:click={handleMenuClickOut}
