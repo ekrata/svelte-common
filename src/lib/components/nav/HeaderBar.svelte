@@ -5,7 +5,7 @@
 	import { writable } from 'svelte/store';
 	import Modal, { bind } from 'svelte-simple-modal';
 	const modal = writable(null);
-	const showLoginModal = () => modal.set(bind(LoginModal, { message: "It's a modal!" }));
+	// const showLoginModal = () => modal.set(bind(LoginModal, { message: "It's a modal!" }));
 	let showMobileMenu: boolean;
 	const handleMenuClick = () => {
 		showMobileMenu = !showMobileMenu;
